@@ -26,7 +26,7 @@ Purpose: Application ko run karne ke liye.
 
 # 2. MySQL Commands for Voting System
 
-Fetch Candidates Information:
+# Fetch Candidates Information:
 
 USE voting_system;
 SELECT * FROM candidates;
@@ -34,7 +34,7 @@ SELECT * FROM candidates;
 
 Purpose: Candidates ka information MySQL se lene ke liye.
 
-Fetch Voter Login Requests:
+# Fetch Voter Login Requests:
 
 USE voting_system;
 SELECT * FROM voters;
@@ -42,7 +42,7 @@ SELECT * FROM voters;
 
 Purpose: Database me login requests dekhne ke liye.
 
-Verify a Voter:
+# Verify a Voter:
 
 USE voting_system;
 UPDATE voters SET is_verified = TRUE WHERE email = 'test@gmail.com';
@@ -51,7 +51,7 @@ SELECT * FROM voters;
 
 Purpose: Voter ko verify karne ke liye.
 
-Check Verification Status of a Voter:
+# Check Verification Status of a Voter:
 
 SELECT * FROM voters WHERE email = 'aman@gmail.com';
 
